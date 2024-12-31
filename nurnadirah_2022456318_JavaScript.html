@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript Task</title>
+</head>
+<body>
+
+	<h2>JavaScript change content</h2>
+	<p id="content1">Welcome to my page</p>
+	<button type="button" onclick='document.getElementById("content1").innerHTML="I love to learn web design"'>Change</button>
+
+	<h2>JavaScript change style</h2>
+	<p id="style1">Hello! Welcome to Faculty of Information Management</p>
+	<script>
+		function myStyle()
+		{
+			document.getElementById("style1").style.fontSize = "25px"; 
+			document.getElementById("style1").style.fontFamily = "Courier New";
+			document.getElementById("style1").style.color = "blue";
+			document.getElementById("style1").style.backgroundColor = "Yellow";
+		}
+	</script>
+
+	<button type="button" onclick="myStyle()">Change Style</button>
+
+	<script>
+		function slay(a)
+		{
+			var pic;
+			if (a==0)
+			{
+				pic="images/slay.JPG"
+			}
+			else 
+			{
+				pic="images/slay2.JPG"
+			}
+			document.getElementById('gambar').src=pic
+		}
+	</script>
+
+	<p></p>
+
+	<img src="images/slay.JPG" id="gambar" width="250px" height="250px">
+	<p>
+		<button type="button" onclick="slay(0)">slay1</button>
+		<button type="button"onclick="slay(1)">slay2</button>
+	</p>
+
+	<button type="button" onclick="AlertBox()">Click Here</button>
+	<script>
+		function AlertBox()
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456. \nSemoga kita beroleh ilmu manfaat")
+		}
+	</script>
+
+		<script>
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456. \nSemoga kita beroleh ilmu manfaat")
+		}
+	</script>
+
+	<p></p>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7614180801115!2d101.71209085!3d3.1574850999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0xc955b08cfc1aae29!2sSuria%20KLCC!5e0!3m2!1sen!2smy!4v1734511111855!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML JAVASCRIPT</title>
+</head>
+<body>
+	<iframe src="https://free.timeanddate.com/clock/i9ojatvy/n122/ftb/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="88" height="34"></iframe>
+
+	<p></p>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5653.042693766079!2d102.2708642336264!3d5.757199009606093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68fe6f50d123f%3A0xaeb67217536d6442!2sUiTM%20Machang!5e0!3m2!1sen!2smy!4v1734407057855!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+	<h2>JavaScript change content</h2>
+	<p id="content1">I am using javascript to change the content</p>
+	<button type="button" onclick='document.getElementById("content1").innerHTML="This is the result after changed using JavaScripts"'>Change</button>
+
+	<h2>JavaScript change style</h2>
+	<p id="style1">This content is using JavaScript to change the style</p>
+	<script>
+		function myStyle()
+		{
+			document.getElementById("style1").style.fontSize = "25px"; 
+			document.getElementById("style1").style.fontFamily = "papyrus";
+			document.getElementById("style1").style.color = "blue";
+			document.getElementById("style1").style.backgroundColor = "Pink";
+		}
+	</script>
+
+	<button type="button" onclick="myStyle()">Change Style</button>
+
+	<h2>JavaScript manipulate image/attributes</h2>
+
+	<script>
+		function slay(a)
+		{
+			var pic;
+			if (a==0)
+			{
+				pic="images/slay.JPG"
+			}
+			else 
+			{
+				pic="images/slay2.JPG"
+			}
+			document.getElementById('gambar').src=pic
+		}
+	</script>
+
+	<img src="images/slay.JPG" id="gambar" width="250px" height="250px">
+	<p>
+		<button type="button" onclick="slay(0)">slay1</button>
+		<button type="button"onclick="slay(1)">slay2</button>
+	</p>
+
+	<h2>Alert Box</h2>
+
+	<button type="button" onclick="AlertBox()">Click Here</button>
+	<script>
+		function AlertBox()
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456. \nSemoga kita beroleh ilmu manfaat")
+		}
+	</script>
+
+		<script>
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456. \nSemoga kita beroleh ilmu manfaat")
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML TABLE 8</title>
+
+	<style>
+		table, tr, th, td
+		{
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+		th, td
+		{
+			padding: 25px;
+		}
+		th
+		{
+			background-color: skyblue;
+			color: white;
+			text-align: center; 
+		}
+		td:nth-child(odd)
+		{
+			background-color: lightpink;
+		}
+		td:nth-child(even)
+		{
+			background-color: deeppink;
+		}
+		td
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<h3>QUESTION 8</h3>
+	<table style="width: 100%">
+		<caption>List of Students</caption>
+		<tr>
+			<th>Name</th>
+			<th>Phone No.</th>
+			<th>Email</th>
+			<th>Course</th>
+		</tr>
+
+		<tr>
+			<td>Nora Ishak</td>
+			<td>0190990880</td>
+			<td>Nora_Ishak@gmail.com</td>
+			<td>IM110</td>
+		</tr>
+
+		<tr>
+			<td>Azmeer Ali</td>
+			<td>0112008800</td>
+			<td>Azmeer_ali@yahoo.com</td>
+			<td>IM110</td>
+		</tr>
+
+		<tr>
+			<td>Arizan Abdullah</td>
+			<td>0177779009</td>
+			<td>arizan@yahoo.com</td>
+			<td>IM245</td>
+		</tr>
+
+		<tr>
+			<td>Zainab Esah</td>
+			<td>0198880099</td>
+			<td>z_esah@yahoo.com</td>
+			<td>CS110</td>
+		</tr>
+	</table>
+</body>
+</html>

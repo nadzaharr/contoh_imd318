@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORMS</title>
+</head>
+<body>
+
+	<h1 style="text-align: center;">Student's Details Form</h1>
+
+	<form action="html_forms_action.html" target="_blank">
+		<label for="name">Name : </label>
+		<input type="text" name="name">
+		<p></p>
+
+		<label for="gender">Gender : </label>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female">
+		<label for="female">Female</label>
+		<p></p>
+
+		<label for="state">State : </label>
+		<select name="state" id="state">
+			<option>Select and option</option>
+			<option value="Kedah">Kedah</option>
+			<option value="Pahang">Pahang</option>
+			<option value="Kelantan">Kelantan</option>
+		</select>
+		<p></p>
+
+		<label for="Address">Address : </label>
+		<textarea name="Address" id="Address" cols="30" rows="4"></textarea>
+		<p></p>
+
+		<label for="email">Email : </label>
+		<input type="email" name="email">
+		<p></p>
+
+		<label for="category">Category : </label>
+		<input type="checkbox" name="category" id="OKU" value="OKU">
+		<label for="OKU">OKU</label>
+		<input type="checkbox" name="category" id="Anak Yatim" value="Anak Yatim">
+		<label for="Anak Yatim">Anak Yatim</label>
+		<input type="checkbox" name="category" id="Normal" value="Normal">
+		<label for="normal">Normal</label>
+		<p></p>
+
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>

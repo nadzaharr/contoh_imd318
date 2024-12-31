@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Exercise</title>
+</head>
+<body>
+
+	<h2>Ordered List</h2>
+
+	<h3>Default</h3>
+	<ol>
+		<li>Ordered lists are used for enumerated items</li>
+		<li>This is a ordered list item which starts with ol</li>
+		<li>Each list item is still a <*li>. </li>
+		<li>Close it with a/ol </li>
+	</ol>
+
+	<h3>Uppercase Alphabet</h3>
+	<ol type="A">
+		<li>Ordered lists are used for enumerated items</li>
+		<li>This is a ordered list item which starts with ol</li>
+		<li>Each list item is still a <*li>. </li>
+		<li>Close it with a/ol </li>
+	</ol>
+
+	<h3>Lowercase roman</h3>
+	<ol type="i">
+		<li>Ordered lists are used for enumerated items</li>
+		<li>This is a ordered list item which starts with ol</li>
+		<li>Each list item is still a <*li>. </li>
+		<li>Close it with a/ol </li>
+	</ol>
+
+	<h3>start with 'F'</h3>
+	<ol type="A" start="6">
+		<li>Apple</li>
+		<li>Guava</li>
+		<li>Watermelon</li>
+	</ol>
+
+	<h3>start with 'II'</h3>
+	<ol type="I" start="2">
+		<li>Apple</li>
+		<li>Guava</li>
+		<li>Watermelon</li>
+	</ol>
+
+	<h2>Unordered List</h2>
+
+	<h3>default</h3>
+	<ul>
+		<li>This a list item or li</li>
+		<li>It is in an unordered list or ul tag</li>
+		<li>The list is opened with a ul tag</li>
+		<li>Each item is between li/li tags</li>
+		<li>The list is closed with a/ul tag</li>
+	</ul>
+
+	<h3>use circle</h3>
+	<ul style="list-style-type: circle;">
+		<li>This a list item or li</li>
+		<li>It is in an unordered list or ul tag</li>
+		<li>The list is opened with a ul tag</li>
+		<li>Each item is between li/li tags</li>
+		<li>The list is closed with a/ul tag</li>
+	</ul>
+
+	<h3>use square</h3>
+	<ul style="list-style-type: square;">
+		<li>This a list item or li</li>
+		<li>It is in an unordered list or ul tag</li>
+		<li>The list is opened with a ul tag</li>
+		<li>Each item is between li/li tags</li>
+		<li>The list is closed with a/ul tag</li>
+	</ul>
+
+	<h3>use none</h3>
+	<ul style="list-style-type: none;">
+		<li>This a list item or li</li>
+		<li>It is in an unordered list or ul tag</li>
+		<li>The list is opened with a ul tag</li>
+		<li>Each item is between li/li tags</li>
+		<li>The list is closed with a/ul tag</li>
+	</ul>
+
+	<h2>Nested list</h2>
+
+	<p>With a proven track record of effective campaigns, My Site Design helps you identify your target audience and successfully reach them</p>
+	<h3>unordered nested list</h3>
+
+	<ul>
+		<li>Branding</li>
+		<li>Corporate Identity</li>
+		<li>Graphic Design</li>
+		<li>Marketing Strategy</li>
+		<li>Marketing Collateral</li>
+		<li>Advertising/Media Buys</li>
+		<li>Website Design & Development
+			<ul style="list-style-type: circle;">
+				<li>CSS3</li>
+				<li>HTML</li>
+				<li>JavaScript</li>
+		</li></ul>
+		<li>Public Involvement</li>
+		<li>Social Media</li>
+		<li>Promotional Items</li>
+	</ul>
+
+
+	<h3>ordered nested list</h3>
+	<ol type="I">
+		<li>Background Skills
+			<ol type="A">
+				<li>Unix Commands</li>
+				<li>Vim Text Editor</li> 
+		</li></ol>
+		<li>HTML
+			<ol type="A">
+				<li>Minimal Page</li>
+				<li>Headings</li>
+				<li>Tags</li>
+				<li>Lists
+					<ol type="i">
+						<li>Unordered</li>
+						<li>Ordered</li> 
+						<li>Definition</li>
+						<li>Nested</li>
+				</li></ol>
+				<li>Links
+					<ol type="i">
+						<li>Absolute</li>
+						<li>Relative</li>
+				</li></ol>
+				<li>Images</li> 
+		</li></ol>
+
+	</ol>
+
+	<h3>following list</h3>
+	<ol type="1">
+		<li>List part 1
+			<ol type="i">
+				<li>List 2 part 1
+					<ul style="list-style-type: square;">
+						<li>List 3 part 1</li>
+						<li>List 3 part 2</li> 
+				</li></ul>
+				<li>List 2 part 2</li>
+		</li></ol>
+		<li>List 1 part 2</li>
+	</ol>
+
+
+	<h2>Description List</h2>
+
+	<h3>first exercise</h3>
+	<dl>
+		<dt>HTML</dt>
+		<dd>Hyper-text Markup Language</dd>
+		<dt>WWW</dt>
+		<dd>World Wide Web</dd>
+		<dt>W3C</dt>
+		<dd>World Wide Web Construction</dd>
+		<dt>dl</dt>
+		<dd>description list</dd>
+		<dt>dt</dt>
+		<dd>description term</dd>
+		<dt>dd</dt>
+		<dd>description details</dd>
+	</dl>
+
+
+	<h3>Second exercise</h3>
+	<p>We promote the basic design concepts:</p>
+
+	<dt><b>1.Contrast</b></dt>
+	<dd>Size, color, weight, opacity, etc</dd>
+	<dd>Creates a hierarchy of importance</dd>
+	<dt><b>2.Repetition</b></dt>
+	<dd>Repeat similar elements (colors, shapes, sizes, etc) to make the design cohesive and balanced</dd>
+	<dt><b>3.Allignment</b></dt>
+	<dd>All elements should have a locational relationship to each other (lined-up)</dd>
+	<dd>Directs the flow and direction of the user's focus</dd>
+	<dt><b>4.Proximity</b></dt>
+	<dd>Groups similar components for clearer definitions</dd>
+	<dd>"Blocks" of ideas make a more interesting layout and will more likely hold the users attention</dd>
+
+
+
+
+
+
+</body>
+</html>
